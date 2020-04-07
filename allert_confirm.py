@@ -12,8 +12,8 @@ try:
     browser = webdriver.Chrome()
     browser.get("http://suninjuly.github.io/alert_accept.html")
 
-    button = browser.find_element_by_css_selector("button.btn")
-    button.click()
+    buttonm = browser.find_element_by_css_selector("button.btn")
+    buttonm.click()
 
     confirm = browser.switch_to.alert
     confirm.accept()
